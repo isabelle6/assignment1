@@ -26,13 +26,41 @@ img {
     display: block;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     overflow: hidden;
     background-color: black;
 }
 
+.logo {
+    height: 4rem;
+    width: auto;
+    background-color: black;
+    padding: .5rem 5%;
+}
 
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/jackonhill.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-size: 17rem;
+}
 
+h1 {
+    color: white;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 5%;
+    padding: 5.5rem 0 0;
+}
 
 
 
