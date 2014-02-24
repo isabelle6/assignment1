@@ -19,6 +19,8 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
+    font-family: Georgia, Times, serif;
+    background-color: #96c;
 }
 
 img {
@@ -58,24 +60,72 @@ h1 {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
-    margin: 5%;
-    padding: 5.5rem 0 0;
+    padding: 5.5rem 5% 0;
 }
 
+article {
+    padding: 0 5%;
+}
 
+h2 {
+    font-family: Georgia, Times, serif;
+    font-size: 2rem;
+    color: #60c;
+    margin: 1.5rem 0 1.5rem;
+}
 
+p {
+    line-height: 1.5rem;
+    margin 1.5rem 0 1.5rem;
+}
 
+.dropcap:first-letter {
+    font-size: 5.5rem;
+    font-weight: bold;
+    font-style: normal;
+    float: left;
+    margin: 1.4rem .5rem 1rem 0;
+    color: #60c;
+}
 
+h3 {
+    font-weight: normal;
+    font-style:italic;
+    color: #60c;
+    margin: 0 0 1.5rem;
+}
 
+hr {
+    border: solid 2px #60c;
+}
 
+figure {
+    margin: 0 auto 1.5rem;
+    width: 100%;
+}
 
+figcaption {
+    font-size: .75rem;
+    font-weight: bold;
+    margin: .5rem 0 0;
+}
 
+footer {
+    background-color: black;
+    overflow: hidden;
+}
 
+footer p {
+    color: #96c;
+    padding: .5rem 5% 0;
+    margin: 0;
+}
 
+ul {
+    color: #96c;
+    font-size: .75rem;
+}
 
-
-
-
-
-
-
+a {
+    color: #96c;
+}
